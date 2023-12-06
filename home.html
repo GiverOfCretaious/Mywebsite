@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Selamat Datang di Websiteku!</title>
+    <style>
+        body {
+            background-color: beige;
+        }
+
+        h1 {
+            text-align: center;
+            animation: bounce 2s infinite;
+        }
+
+        hr {
+            color: yellow;
+        }
+
+        p:first-of-type::first-letter {
+            text-transform: uppercase;
+            font-size: 1.5em;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateX(0);
+            }
+            40% {
+                transform: translateX(20px);
+            }
+            60% {
+                transform: translateX(-20px);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Selamat Datang di Websiteku!</h1>
+
+    <nav>
+        <ul>
+            <li><a href="home.html">Tampilan Home</a></li>
+            <li><a href="halaman1.html">Instagram</a></li>
+            <li><a href="halaman2.html">Facebook</a></li>
+            <li><a href="halaman3.html">TikTok</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- Content for Home Page -->
+    <p align="justify">Website ini berisi tentang informasi mengenai penggunaan sosial media. Penggunaan media sosial juga secara khusus dapat digunakan untuk menyalurkan kreativitas kita, seperti membuat video tutorial membuat kerajinan dari barang bekas, atau hanya sekedar melihat foto dan video yang diposting oleh pengguna lain. Media sosial juga dapat menjadi sarana dalam berwirausaha maupun kegiatan belajar. Informasi yang kita dapat dari media sosial juga beragam, baik secara umum maupun hanya sekedar hiburan. Namun, ada juga yang membagikan informasi pribadi yang dapat dilihat oleh pengguna lain.</p>
+
+    <!-- Content for Social Media Links -->
+    <h2 align="center">Social Media Links</h2>
+
+    <table>
+        <tr>
+            <th>Nama sosial media:</th>
+            <td><a href="halaman1.html">Instagram</a></td>
+            <td><a href="halaman2.html">Facebook</a></td>
+            <td><a href="halaman3.html">TikTok</a></td>
+        </tr>
+        <tr>
+            <th>Link Sosial Media:</th>
+            <td><a href="https://www.instagram.com/">Link Instagram</a></td>
+            <td><a href="https://www.facebook.com/">Link Facebook</a></td>
+            <td><a href="https://www.tiktok.com/">Link TikTok</a></td>
+        </tr>
+    </table>
+
+    <style>
+        /* Additional styling for the home page content */
+        p {
+            animation: colorChange 5s infinite;
+        }
+
+        @keyframes colorChange {
+            0% {
+                color: black;
+            }
+
+            25% {
+                color: blue;
+            }
+
+            50% {
+                color: green;
+            }
+
+            75% {
+                color: red;
+            }
+
+            100% {
+                color: black;
+            }
+        }
+    </style>
+
+</body>
+
+</html>
